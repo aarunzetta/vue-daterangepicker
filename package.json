@@ -1,0 +1,44 @@
+{
+  "name": "vue-daterangepicker",
+  "version": "1.0.0",
+  "description": "A Vue 3 date range picker component",
+  "main": "./dist/vue-daterangepicker.umd.js",
+  "module": "./dist/vue-daterangepicker.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-daterangepicker.es.js",
+      "require": "./dist/vue-daterangepicker.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "datepicker",
+    "daterangepicker",
+    "component"
+  ],
+  "author": "Aaron Bartolome",
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@vitejs/plugin-vue": "^6.0.4",
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.3.1",
+    "vue": "^3.5.27"
+  }
+}
